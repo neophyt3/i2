@@ -3,11 +3,14 @@
 - Inside the clone directory, execute the following command
 ```
 >npm install
->npm build
 ```
 - After npm install, lets setup database 
     - Change the connection db uri in, app/config/db.js file
-    - Change the cwd - current working directory to /dist/scripts
+-Then build the distribution by running below command
+```
+>npm build
+```
+- Change the cwd - current working directory to /dist/scripts
 ```
 >cd ./dist/scripts
 ```
